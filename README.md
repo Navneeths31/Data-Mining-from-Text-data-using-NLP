@@ -1,2 +1,3 @@
+(In this project, I was not allowed to share the code under the strict instruction of my professor)
 
-I was able to abstract the Dates of Violation, Names of convicts, People working in SEC and Dollar Amounts using NLP and Python language. The dataset I received was taken from the SEC Open Source database and was in text data format. Using Python's NLP tools and a little bit of logic, I was able to extract the data
+The data was extracted form the open source SEC dataset and the task was to extract the dates of violation, company names, SEC employees, Convicts and any dollar amounts.Python's en_core_web_lg module was used to extract the data in all the cases.
