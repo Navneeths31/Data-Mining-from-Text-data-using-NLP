@@ -3,7 +3,7 @@ of violation. We have created a function called 'new_search' which will take as 
 particular report and the number of words to be searched before and after the location of the date. This way, if we see the words 'LITIGATION', 'FILED' or 'MODIFIED' or any words
 associated with 'SEC' very nearby the date, we can omit that date since it is a date of filing.
 
-For the second question, we used 'PERSON' label of en_core_web_lg to print all the peopl/company names
+For the second question, we used 'PERSON' label of en_core_web_lg to print all the people/company names
 
 The third question was a combination of the first and second questions. We used the new_search function again (from the first question) to go through the dataframe and identify 
 people associated with SEC by checking the people who have anything related to SEC anywhere near them. 'SEC','THE SEC','SECURITIES AND EXCHANGE COMMISSION', 'THE SECURITIES AND 
