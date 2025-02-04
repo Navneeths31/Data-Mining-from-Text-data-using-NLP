@@ -1,4 +1,4 @@
-The data was extracted form the open source SEC dataset and the task was to extract the dates of violation, company names, SEC employees, Convicts and any dollar amounts. Python's en_core_web_lg module was used to extract the data in all the cases. We checked the data to the entities in en_core_web_lg and cross-checked the data.
+The data was extracted form the open source SEC dataset and the task was to extract the dates of violation, company names, SEC employees, Convicts and any dollar amounts. Python's en_core_web_lg module was used to extract the data in all the cases. We checked the data with the entities in en_core_web_lg and cross-checked the output.
 
 1) For extracting the company details, we mployed the usage of 'ORG' label present in en_core_web_lg and thenwe removed all instaces of SEC from the output (Since it will return SEC also as an  organization). 'SEC','THE SEC','SECURITIES AND EXCHANGE COMMISSION', 'THE SECURITIES AND EXCHANGE COMMISION' were the words used to check.
 
